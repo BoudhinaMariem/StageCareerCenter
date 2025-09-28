@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  height: 100px;         /* optionnel : hauteur fixe */
+  box-sizing: border-box;
+}
+
+.navbar .links a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .right a {
+  color: #8b0000;
+  text-decoration: none;
+  margin-left: 10px;
+}

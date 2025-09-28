@@ -1,0 +1,42 @@
+/* Navbar Alt */
+.navbar-alt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3d3d3; /* gris clair */
+  color: #333;
+  padding: 10px 20px;
+  height: 100px;         /* optionnel : hauteur fixe */
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.navbar-alt .logo img {
+  height: 150px; /* logo plus grand */
+}
+
+.navbar-alt .right button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #8b0000; /* rouge foncé */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.navbar-alt .right button:hover {
+  background-color: #ff0000; /* rouge vif au hover */
+}
+
+.navbar-alt .right i {
+  font-size: 16px;
+}

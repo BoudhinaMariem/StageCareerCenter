@@ -1,0 +1,79 @@
+<!-- Navbar Home -->
+<nav class="navbar">
+  <div class="navbar-left">
+    <img src="assets/logo.png" alt="Logo" class="navbar-logo" />
+  </div>
+  <div class="navbar-center">
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="navbar-right">
+    <i class="fas fa-user"></i>
+    <a routerLink="/login">Login</a>
+  </div>
+</nav>
+
+<!-- Home overlay -->
+<div class="home-container">
+  <div class="overlay">
+    <h1>Bienvenue au Career Center</h1>
+    <p>Votre passerelle vers les opportunités de carrière et de développement.</p>
+  </div>
+
+  <!-- Icônes réseaux sociaux (fixées à droite) -->
+  <div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100087995097609" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/esprit-career-center/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <!-- Icône chatbot (bas à droite) -->
+  <div class="chatbot-icon">
+    <i class="fas fa-comment-dots"></i>
+  </div>
+</div>
+
+
+
+<!-- À propos -->
+<section id="about" class="section-about">
+  <h2>À propos du Career Center</h2>
+  <p>
+    Le Career Center ESPRIT accompagne ses étudiants et alumni à travers une
+    large gamme de services : formations, ateliers, coaching personnalisé et
+    opportunités de mise en relation avec les entreprises. Dans le cadre de la
+    stratégie 2026, un projet de tableau de bord interactif est en cours de
+    développement. Celui-ci permettra de suivre et d’analyser les parcours
+    académiques et professionnels, ainsi que l’efficacité des services de
+    développement de carrière.
+  </p>
+    <p>
+    L’objectif final est de mettre à disposition des responsables du Career
+    Center, des alumnis et des étudiants un outil fiable et interactif de
+    pilotage stratégique, facilitant la prise de décision et le développement
+    de parcours professionnels réussis.
+  </p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section-contact">
+  <div class="contact-container">
+    <!-- Image à gauche -->
+    <div class="contact-image">
+      <img src="assets/contact.jpg" alt="Contact" />
+    </div>
+
+    <!-- Formulaire à droite -->
+    <form class="contact-form" (ngSubmit)="submitContact()">
+      <label for="fullname">Nom & Prénom :</label>
+      <input type="text" id="fullname" [(ngModel)]="contact.fullname" name="fullname" placeholder="Votre nom et prénom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" [(ngModel)]="contact.email" name="email" placeholder="Votre email" required>
+
+      <label for="message">Description / Question :</label>
+      <textarea id="message" [(ngModel)]="contact.message" name="message" placeholder="Posez votre question..." rows="6" required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
