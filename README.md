@@ -1,27 +1,37 @@
-# CareerCenter
+# 🎓 Career Center Dashboard – ESPRIT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+## 📌 Description
+Ce projet consiste à développer un ensemble de **dashboards Power BI** permettant au Career Center d’ESPRIT de suivre l’employabilité, l’engagement étudiant, les parcours alumni et les indicateurs clés de performance.  
+L’objectif est d’offrir une **vision claire, dynamique et exploitable** pour faciliter la prise de décision et améliorer les services carrière.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Technologies utilisées
+- **Talend Open Studio** – Intégration, transformation et chargement des données (ETL)  
+- **Microsoft SQL Server** – Stockage des données (Data Warehouse)  
+- **Power BI** – Création des rapports interactifs et KPIs  
+- **Angular (prévu)** – Interface Web pour la consultation des dashboards  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📂 Contenu du projet
+- **Modèle de données** (dimensions, faits, clés et relations)  
+- **Processus ETL complet** (cleaning, mapping, chargement)  
+- **Dashboards Power BI :**
+  - Overview  
+  - Étudiants  
+  - Alumni  
+- **DAX Measures** pour KPIs (employabilité, engagement, placement, etc.)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🎯 Objectifs
+- Automatiser la collecte et la transformation des données carrière  
+- Fournir une vision unifiée du parcours *étudiant → alumni*  
+- Aider le Career Center dans ses décisions stratégiques  
+- Améliorer le suivi et la qualité des services rendus  
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 👩‍💻 Auteur
+**Mariem Boudhina** – Étudiante en 5ᵉ année ERP-BI, ESPRIT Engineering School
